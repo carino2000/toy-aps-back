@@ -5,7 +5,7 @@ spring:
   datasource:
     url: jdbc:mysql://database-2.clwoya2662ja.ap-northeast-2.rds.amazonaws.com:3306/toyaps
     username: admin
-    password: ${password}
+    password: ${DB_PASSWORD}
     driver-class-name: com.mysql.cj.jdbc.Driver
 
   jpa:
